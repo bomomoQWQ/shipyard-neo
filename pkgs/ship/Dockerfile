@@ -44,6 +44,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     fontconfig \
     fonts-noto-cjk \
     fonts-symbola \
+    # LibreOffice headless（docx/pptx/xlsx → pdf 转换）
+    libreoffice-writer \
+    libreoffice-impress \
+    libreoffice-calc \
     # 用户管理工具
     sudo \
     # Node.js 安装需要的工具
@@ -53,6 +57,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     # 压缩/解压工具
     zip \
     unzip \
+    # CUPS 打印客户端（lp 指令，连接远程打印服务器）
+    cups-client \
     # 调试工具（可选，生产环境可移除）
     vim-tiny \
     nano \
