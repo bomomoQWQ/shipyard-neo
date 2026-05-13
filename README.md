@@ -2,7 +2,7 @@
 
 > 面向 AI Agents 的安全、可持久化沙箱执行平台（Secure, Persistent Execution Platform for AI Agents）
 
-Shipyard Neo 提供“计算与存储分离”的沙箱基础设施：Agent 在隔离容器中执行 Python / Shell、读写工作区文件，并可通过独立浏览器运行时进行网页自动化。
+Shipyard Neo 提供“计算与存储分离”的沙箱基础设施：Agent 在隔离容器中执行 Python / Shell、读写工作区文件，并可通过独立浏览器运行时进行网页自动化。相较于原项目，向容器里增加了libreoffice和cups指令的支持。
 
 ---
 
